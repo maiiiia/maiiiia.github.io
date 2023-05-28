@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
     <h1>Crossword</h1>
-    Guess the words!
+    Guess the words! (all horizontal)
     1. opposite of young
     2. we breath it
     3. you can open the door with it 

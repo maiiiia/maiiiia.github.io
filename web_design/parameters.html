@@ -1,26 +1,25 @@
 <!DOCTYPE html>
-<html lang="ru">
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Настройка страницы</title>
+    <title>Page settings</title>
 </head>
 <body>
-    <h1>Настройка страницы</h1>
+    <h1>Page settings</h1>
     <form method="POST" action="page.php">
-        <label for="title">Заголовок страницы:</label><br>
+        <label for="title">Page title:</label><br>
         <input type="text" id="title" name="title" required><br><br>
 
-        <label for="bgcolor">Цвет фона:</label><br>
+        <label for="bgcolor">Background color:</label><br>
         <input type="color" id="bgcolor" name="bgcolor" required><br><br>
 
-        <label for="fontcolor">Цвет шрифта:</label><br>
+        <label for="fontcolor">Font color:</label><br>
         <input type="color" id="fontcolor" name="fontcolor" required><br><br>
 
-        <label for="text">Текст страницы:</label><br>
+        <label for="text">Page text:</label><br>
         <textarea id="text" name="text" rows="4" cols="50" required></textarea><br><br>
 
-        <input type="submit" value="Применить">
+        <input type="submit" value="submit">
     </form>
 </body>
 </html>
